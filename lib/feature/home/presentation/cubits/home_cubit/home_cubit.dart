@@ -15,5 +15,14 @@ class HomeCubit extends BaseCubit<HomeState>  {
     CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'Crime'),
     CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'horror'),
     CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'Cartoon'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'Comedy'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test1'),
+    CategoryModel(iconData: Icons.call_to_action_outlined, name: 'test2'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test3'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test4'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test5'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test6'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'test7'),
+    CategoryModel(iconData: Icons.add_a_photo_outlined, name: 'Comedy'),
   ];
 }
