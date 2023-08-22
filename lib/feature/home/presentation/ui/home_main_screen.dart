@@ -65,6 +65,32 @@ class _HomeMainScreenState extends State<HomeMainScreen> {
             itemCount: homeCubit.categories.length,
           ),
         ),
+
+        /// ========  Trading Movies ========
+        const Padding(
+          padding:  EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+          child: TitleTile(
+            title: 'Trading',
+          ),
+        ),
+
+        /// =========== List of Trading Movie ==============
+
+        SizedBox(
+          height: 240,
+          child: ListView.separated(
+            padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+            scrollDirection: Axis.horizontal,
+            itemBuilder: (context, index) =>
+                // CategoryTile(categoryModel: homeCubit.categories[index]),
+            const MovieTile(),
+            separatorBuilder: (context, index) => const SizedBox(
+              width: 10,
+            ),
+            itemCount: homeCubit.categories.length,
+          ),
+
+        ),
       ],
     );
   }

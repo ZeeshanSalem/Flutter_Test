@@ -1,5 +1,6 @@
 class FlutterTestImages {
   static const dummyProfile = 'assets/images/dummy_user.png';
+  static const dummyMovie = 'assets/images/dummy_movie.jpg';
 
 }
 
