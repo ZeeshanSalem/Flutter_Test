@@ -9,7 +9,7 @@ class GreetingTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 10),
+      padding: const EdgeInsets.fromLTRB(10, 60, 10, 20),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [

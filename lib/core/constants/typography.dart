@@ -11,7 +11,7 @@ class CustomTypography {
 
   static const subTitleStyle = TextStyle(
     color: Colors.white,
-    fontSize: 30,
+    fontSize: 15,
     fontWeight: FontWeight.w400,
   );
 
