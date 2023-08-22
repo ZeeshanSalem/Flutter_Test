@@ -5,7 +5,8 @@
 const String baseUrlApi = 'https://api.themoviedb.org/3/';
 
 
-const String kMovieApi = "movie/changes";
+const String kTradingMovieApi = "trending/movie";
+const String kUpcomingMovieApi = "movie/upcoming";
 
 
 

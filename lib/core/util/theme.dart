@@ -66,7 +66,7 @@ final lightTheme = ThemeData(
         borderRadius: BorderRadius.circular(26),
 
       ) ,
-      textStyle: CustomTypography.pingFangStyle.copyWith(
+      textStyle: CustomTypography.subTitleStyle.copyWith(
         fontSize: 15,
       ),
       elevation: 0,

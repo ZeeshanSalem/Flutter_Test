@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/core/cubit/base_cubit.dart';
 import 'package:test_app/core/data/model/nav_bar.dart';
+import 'package:test_app/feature/home/presentation/home_main_screen/home_main_screen.dart';
 import 'dashboard_state.dart';
 
 class DashboardCubit extends BaseCubit<DashboardState>  {
@@ -11,7 +12,7 @@ class DashboardCubit extends BaseCubit<DashboardState>  {
   int selectedPageIndex = 0;
 
   final List<Widget> screen = const [
-    SizedBox(),
+    HomeMainScreen(),
     SizedBox(),
     SizedBox(),
   ];
